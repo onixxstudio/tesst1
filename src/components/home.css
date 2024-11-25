@@ -1,0 +1,349 @@
+/* body[theme="black"]{
+    background-color: red;
+} */
+
+*::selection {
+    background-color: salmon;
+}
+
+.vdodiv {
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+.home,
+.capsules {
+    background-image: url(../../public/noise.webp);
+}
+
+
+
+/* mobie view for pages */
+@media (max-width:700px) {
+
+
+    .hsec1btext {
+        /* background-color: rebeccapurple; */
+        font-size: 3.5vw;
+    }
+
+
+    .hsec1ttext {
+        /* background-color: red; */
+        font-size: 4vw;
+    }
+
+    .slidesm {
+        /* background-color: rebeccapurple; */
+        width: 100vw;
+    }
+
+    .elem {
+        font-size: 3vw;
+    }
+
+
+
+
+
+
+
+
+
+    /* capsule section */
+
+    .capsules {
+        /* background-color: red; */
+        height: fit-content;
+        gap: 5.5%;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .leftcapsulesec {
+        width: 100vw;
+        height: 26%;
+        padding: 0;
+        margin: 0;
+        /* background-color: violet; */
+        /* padding-bottom: 3vh; */
+    }
+
+    .rightcapsulesec {
+        height: fit-content;
+        width: 100vw;
+        /* background-color: red; */
+        margin-top: 5vh;
+        display: flex;
+        /* flex-direction: column; */
+        overflow-y: auto;
+        gap: 4vh;
+    }
+
+    .capsule {
+        height: 97vh;
+        transform: rotate(0);
+        display: flex;
+        /* background-color: rebeccapurple; */
+    }
+
+
+
+    .capsulecircle {
+
+        /* background-color: aqua; */
+        /* height: 8rem; */
+        width: 70vw;
+
+    }
+
+
+
+
+    /* hsec2 mobile css */
+
+
+    .craft {
+        /* height: 100vh; */
+        /* width: 100vw; */
+        /* background-color: green; */
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* flex-flow: row; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        text-align: center;
+
+    }
+
+    .ltext {
+        /* height: ; */
+        width: 100vw;
+        /* background-color: red; */
+        /* position: relative; */
+    }
+
+
+    .butt {
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        /* position: relative; */
+        left: 50%;
+        transform: translatex(60%);
+        /* left: 50%; */
+    }
+
+    .btn {
+        /* background-color: aqua; */
+    }
+
+
+
+    .ltext p {
+        padding-top: 10%;
+        font-size: large;
+        /* gap: 5; */
+        text-decoration: dotted;
+        border-bottom: 2px;
+        border-color: black;
+        letter-spacing: 2px;
+        line-height: 25px;
+        font-weight: 500;
+        /* background-color: red; */
+        /* font-size: 5vh; */
+    }
+
+
+    .ltext h1 {
+        margin: 7%;
+
+        font-size: 6.5vw;
+        line-height: 5.5vh;
+        font-weight: 500;
+    }
+
+    .cards {
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+        width: 99.99vw;
+        /* overflow: hidden; */
+        /* background-color: red; */
+        display: flex;
+        /* flex-direction: row; */
+        /* overflow: auto; */
+        white-space: nowrap;
+
+
+    }
+
+
+    .cardlist {
+        /* justify-content: center; */
+        /* flex-flow: row; */
+        /* align-items: center; */
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardbox {
+        /* overflow: hidden; */
+        /* height: 90%; */
+        width: 95vw;
+        /* background-color: rebeccapurple; */
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+
+    /* h3 sec */
+
+
+    .slide1bsection {
+        opacity: 100%;
+    }
+
+
+    /* hsec3 2part */
+    .hslide2sec {
+        /* background-color: rebeccapurple; */
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    .marquetexthsec2 {
+        font-size: 15vw;
+        /* z-index: 43; */
+        /* background-color: rebeccapurple; */
+        /* top: 15%; */
+        width: 97vw;
+    }
+
+    .marquetexthsec2main {
+        top: 18%;
+    }
+
+
+
+    .hslide2secingsec {
+        background-color: bisque;
+        height: 55vh;
+        width: 55%;
+        right: 15%;
+        /* z-index: 3; */
+        top: 27%;
+    }
+
+    .hsec3parag {
+        /* background-color: red; */
+        font-size: 3.5vw;
+        width: 90%;
+        left: -4%;
+    }
+
+    .hsec3connect {
+        /* background-color: red; */
+        bottom: 10%;
+    }
+
+    .hsec3addre {
+        /* background-color: red; */
+        width: 35vw;
+        bottom: 3%;
+        position: absolute;
+        text-align: center;
+        /* justify-content: center; */
+        align-items: center;
+        margin-top: 25%;
+    }
+
+
+    .hsec3addretext {
+        position: absolute;
+        /* bottom: 15%; */
+        /* top: 90vh; */
+        right: 1%;
+    }
+
+.slidesec1baloon{
+opacity: 40%;
+}
+.slidesec1imag{
+    /* background-color: aqua; */
+    height: 10%;
+    width: 30%;
+}
+
+
+
+
+
+
+
+    /* hsec4 mobile view */
+    .team {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .oursolutext {
+        font-size: 8vw;
+    }
+
+    .listelem {
+        /* background-color: red; */
+        height: 12vh;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 99vw;
+        margin: 0;
+        padding: 0;
+
+        /* left: 0; */
+        /* position: relative; */
+        gap: 30%;
+    }
+
+    .listelem h1 {
+        /* background-color: red; */
+        position: absolute;
+        font-size: 6.5vw;
+    }
+
+    .number {
+        visibility: hidden;
+    }
+
+
+
+    .solutionlist {
+        /* height: 90vh; */
+        gap: 2vh;
+    }
+
+
+    .solutionbuttom {
+        /* top: 10%; */
+        bottom: 10%;
+        position: absolute;
+
+    }
+
+
+
+}

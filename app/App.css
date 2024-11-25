@@ -1,0 +1,95 @@
+
+.vdodiv{
+    clip-path: circle(var(--clip) at 50% 50%);
+    background-image: url(../public/back.png);
+    /* mix-blend-mode:darken; */
+    --clip:"100%",
+    /* display:var(--clip); */
+    background-color: #00AF79;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER CODE */
+
+.h1footer{
+    /* background-color: red; */
+    
+    display: flex;
+    transform: perspective(400px) rotateX(32deg);
+
+}
+.footer{
+    background-image: url(../public/noise.webp);
+}
+.socialconnect{
+    /* background-color: red; */
+    font-size: small;
+    
+}
+
+.sendreqcircle{
+    border-radius: 50%;
+    border-style: dashed;
+    /* border:20px; */
+    border-color: whitesmoke;
+/* background-color: red; */
+
+    
+}
+
+
+
+
+
+
+@media (max-width:700px) {
+    
+.sec2footer{
+    height: 20vh;
+}
+
+
+    .h1footer{
+        /* background-color: violet; */
+    
+        display: flex;
+        /* align-items: end; */
+        /* place-items: end; */
+        justify-content: end;
+        font-size: 30vw;
+    }
+
+
+.div2footer{
+
+    display: flex;
+    align-items: center;
+    /* overflow: hidden; */
+    /* height: 20%; */
+    width: 35%;
+}
+    .sendreqcircle{
+        /* background-color: red; */
+        height: 50%;
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        
+        /* width: 100%; */
+        /* font-size: 2px; */
+        white-space: nowrap;
+    }
+
+    .sendreqcircletext{
+        font-size: medium;
+    }
+}
+
+/* Footer code end */

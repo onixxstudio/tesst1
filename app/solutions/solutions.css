@@ -1,0 +1,124 @@
+.stroke{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+
+}
+
+.stroke:hover{
+    -webkit-text-fill-color: white;
+}
+
+@media (max-width:1117px) {
+
+
+/* sevice page */
+
+.servicescircle1{
+    opacity: 100%;
+}
+
+
+
+/* 2nd sec */
+    .ser1main{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        position: relative;
+/* gap: 10%; */
+    }
+
+
+    .ser1maintext{
+        height: fit-content;
+        font-size: 7vw;
+        /* background-color: rebeccapurple; */
+        width: 99vw;
+        margin: 0;
+        margin-top: 6%;
+    }
+
+
+    .ser1main2{
+        
+        /* background-color: rebeccapurple; */
+        /* padding: 10%; */
+        width: 100vw;
+        top: 15%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+    }
+
+    .ser1main2texts{
+/* background-color: antiquewhite; */
+display: flex;
+align-items: center;
+/* text-align: center; */
+width: 99vw;
+/* justify-content: center; */
+/* text-align: center; */
+    }
+
+    
+.ser1main2para{
+    /* background-color: red; */
+    width: 99%;
+    padding: 10;
+    margin: 0;
+    font-size: 4vw;
+    height: fit-content;
+    /* position: absolute; */
+    text-align: start;
+    margin-left: 2.5%;
+    top: 5%;
+    
+    /* text-align: center; */
+}
+
+.ser1main2pointh{
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.ser1main2points{
+    position: relative;
+    /* top: 120%; */
+    /* background-color: rebeccapurple; */
+    width: 100vw;
+    /* font-size: larger; */
+    text-align: start;
+    gap: 3vh;
+    margin-left: 10%;
+    border: 5px;
+    border-color: wheat;
+    /* background-color: rebeccapurple; */
+    /* border-color: wheat; */
+    border-top: 5% solid gold;
+}
+
+
+
+.movetoser1main{
+    /* visibility:unset; */
+    opacity:100%;
+    background-color: wheat;
+    /* visibility: collapse; */
+/* right: 0%; */
+left: 80%;
+/* width: 100%; */
+position: relative;
+}
+.movetoser1mainp{
+    /* overflow: hidden; */
+    position: relative;
+    width: 90vw;
+    /* background-color: rebeccapurple; */
+}
+}

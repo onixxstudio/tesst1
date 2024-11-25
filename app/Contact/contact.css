@@ -1,0 +1,83 @@
+.context{
+
+    font-weight:bolder;
+    font-family: montserrat;
+    
+    cursor:default;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 3px;
+    /* background-color: red; */
+    }
+    
+    .context:hover{
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .workwithustext{
+        font-weight: 500;
+        /* font-size:; */
+        
+    }
+    
+    .inputefield{
+        border: 2px;
+        border: black;
+        border-top: 2px ;
+        /* background-color: red; */
+        /* border-radius: 5%; */
+        /* border-bottom: 20px #000; */
+        border-bottom: 3rem #000;
+    }
+    
+    
+    
+    
+    
+    .marquimg{
+        /* width: 15%; */
+        /* height: fit; */
+        /* background-color: red; */
+        /* width: fit-content; */
+        /* height: fit-content; */
+        overflow: hidden;
+    }
+    
+    
+    .marquimg section img{
+        width: 75%;
+        min-width: 60%;
+        object-fit: contain;
+        /* mix-blend-mode: color-burn; */
+        aspect-ratio: 3/2;
+    }
+
+
+
+
+@media (max-width:600px) {
+    /* contact form */
+    /* .workwithustext{
+        font-size: 3rem;
+    } */
+    .cforminput{
+        /* display: flex-col; */
+        display: flex;
+        flex-direction: column;
+    }
+    .workwithustext{
+        font-size: 5.2vh;
+        margin-top: 5%;
+    }
+    
+    .cloudimg{
+        /* background-color: red; */
+        top: 25%;
+        right: 7%
+    }
+
+.baloon1{
+    top: 52%;
+}
+
+    }
+    

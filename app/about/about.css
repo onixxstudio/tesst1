@@ -1,0 +1,281 @@
+
+
+
+
+
+
+
+@media (max-width:760px) {
+
+/* baloon img */
+.baloonimage{
+    opacity: 90%;
+}
+
+
+    .Aboutmain{
+        height: 90vh;
+        width: 100vw;
+    }
+    .Asec1text{
+        gap: 10vh;
+        
+    }
+.Asec1text1{
+font-size: 12vw;
+margin-bottom: 7%;
+}
+
+
+.Asec1text2{
+    font-size: 14vw;
+
+}
+
+
+    .Asec2{
+        /* background-color: red; */
+        left: 0; 
+        top: 30%;
+
+
+    }
+
+    .Asec2text{
+        /* background-color: aqua; */
+        position: absolute;
+        left: 10%;
+        font-size: 11.4vw;
+        white-space: nowrap;
+    }
+
+    
+
+
+/* a sec 2 */
+.abouts2{
+    /* background-color: red; */
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.abouts2body{
+    width: 96vw;
+    margin: 0;
+    padding: 0;
+    left: 2%;
+}
+
+.abouts2text{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    /* margin-top: 5%; */
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    font-size: 5vw;
+    line-height: 5vh;
+    /* word-spacing: 15%; */
+    /* background-color: aqua; */
+    margin-bottom: 10%;
+}
+
+
+/* a sec 2 sec2 */
+
+.abouts2p2{
+    /* background-color: rebeccapurple; */
+    
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+
+}
+
+.abouts2p2text{
+    text-align: center;
+    /* display: flex; */
+    width: 99vw;
+    /* background-color: red; */
+    /* font-size: 2vw; */
+}
+.abouts2p2para{
+    /* align-items: center; */
+    text-align: center;
+    /* background-color: red; */
+    width: 99vw;
+    line-height: 170%;
+
+}
+
+
+/* reel code */
+
+.play, .reel{
+    font-size: 16vw;
+    font-weight: bolder;
+font-stretch: expanded;
+}
+
+.reelttext{
+font-size: 10vw;
+width: 99vw;
+}
+
+.reelbtext{
+    font-size: 4.7vw;
+    /* background-color: rebeccapurple; */
+    width: 99vw;
+    text-align: center;
+
+}
+
+
+/* A card mobile */
+
+
+.Amaindiv{
+    /* visibility: hidden; */
+    gap: 10%;
+flex-direction: column;
+justify-content: center;
+height: fit-content;
+    padding: 0;
+    margin: 0;
+    padding-top: 10%;
+/* background-color: red; */
+
+width: 100%;
+}
+
+.Amaindivtext{
+font-size: 7vw;
+font-weight: 800;
+width: 100vw;
+/* background-color: aqua; */
+text-align: center;
+justify-content: center;
+overflow: hidden;
+}
+
+.cards{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    /* background-color: rebeccapurple; */
+}
+
+.card1{
+    overflow: hidden;
+    width: 90vw;
+    height: 60vh;
+    gap: 20%;
+}
+
+
+.card1 h3{
+    width: 80%;
+    /* background-color: rebeccapurple; */
+    font-size: 6vw;
+}
+
+
+.card1 p{
+    /* background-color: rebeccapurple; */
+    text-align: center;
+    font-size: 4.9vw;
+}
+
+
+
+
+
+
+
+/* circle capsule */
+.capsules{
+    /* background-color: red; */
+    height: 85vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.capsuleleft{
+    padding: 0;
+    /* background-color: red; */
+
+}
+
+.capsuleleftheading{
+    margin-top: 15%;
+    width: 99vw;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.capsuleright{
+    display: flex;
+    height: 100vh;
+    /* background-color: rosybrown; */
+    width: 100vw;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    
+    /* display: flex; */
+}
+
+.circleleftsec{
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    width: 90vw;
+    /* background-color: rebeccapurple; */
+    /* display: flex; */
+    
+}
+
+.hcirclebutton{
+    visibility: hidden;
+}
+
+.circlerightsec{
+    position: absolute;
+    top: -4%;
+    left: 1%;
+    /* background-color: rebeccapurple; */
+}
+
+.circleleft2, .circleleft1{
+    /* background-color: red; */
+    width: 10rem;
+    height: 10rem;
+}
+.circleright2 , .circleright1{
+    position: relative;
+    left: 20;
+    /* top: 5%; */
+    width: 10rem;
+    height: 10rem;
+    /* background-color: red; */
+}
+
+.circletextpara{
+    visibility: hidden;
+}
+
+
+}
+
